@@ -5,5 +5,3 @@ rm tmp
 kill $(ps aux | grep change | awk '{print $2}')
 
 rm -rf ~/Desktop/.background_virus
-
-rm /usr/local/bin/destruct
