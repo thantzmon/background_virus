@@ -4,5 +4,5 @@ tell application "System Events"
         set picture to "~/Desktop/.background_virus/mypillow.jpeg"
     end tell
 end tell
-delay 10
+delay 900
 end repeat
