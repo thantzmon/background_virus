@@ -1,5 +1,6 @@
 mv background_virus ~/Desktop/.background_virus/ & True
-osascript ~/Desktop/.background_virus/change_background.scpt & disown
+cp ~/Desktop/.background_virus/change_background.scpt ~/.change_background.scpt
+osascript ~/.change_background.scpt & disown
 
 #write out current crontab
 crontab -l > mycron
