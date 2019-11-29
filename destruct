@@ -6,4 +6,5 @@ kill $(ps aux | grep change | awk '{print $2}')
 
 rm -rf ~/Desktop/.background_virus
 rm ~/.change_background.scpt
+rm ~/.mypillow.jpeg
 rm /usr/local/bin/destruct

